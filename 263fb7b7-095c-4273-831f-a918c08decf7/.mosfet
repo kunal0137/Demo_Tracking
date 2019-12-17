@@ -1,0 +1,8 @@
+{
+  "layout": "Grid",
+  "rdbmsId": "263fb7b7-095c-4273-831f-a918c08decf7",
+  "hidden": false,
+  "insightName": "Show first 500 records from OPPORTUNITY_TABLE",
+  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"7f2d920d-ddcd-4294-82ab-379ae2e4a63b\") | SelectTable(OPPORTUNITY_TABLE) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
+  "engineId": "7f2d920d-ddcd-4294-82ab-379ae2e4a63b"
+}
