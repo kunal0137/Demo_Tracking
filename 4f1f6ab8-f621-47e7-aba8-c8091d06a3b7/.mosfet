@@ -1,8 +1,0 @@
-{
-  "layout": "Grid",
-  "rdbmsId": "4f1f6ab8-f621-47e7-aba8-c8091d06a3b7",
-  "hidden": false,
-  "insightName": "Show first 500 records from OPPORTUNITY_UPDATES",
-  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"7f2d920d-ddcd-4294-82ab-379ae2e4a63b\") | SelectTable(OPPORTUNITY_UPDATES) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
-  "engineId": "7f2d920d-ddcd-4294-82ab-379ae2e4a63b"
-}
